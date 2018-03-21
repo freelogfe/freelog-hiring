@@ -1,0 +1,70 @@
+{
+
+
+	"location": "深圳 - 南山区 - 金骐智谷大厦17层",
+	"features-images" :  [
+		{
+			"presentableId": "5ab0b5f72e443b002095a5c2",
+			"description": "弹性工作时间"
+		},
+		{
+			"presentableId": "5ab0b395b8062d0021b2bb73",
+			"description": "电动升降办公桌"
+		},
+		{
+			"presentableId": "5ab0b3abb8062d0021b2bb75",
+			"description": "人体工学座椅"
+		},
+		{
+			"presentableId": "5ab0b3c32e443b002095a5ba",
+			"description": "新鲜水果"
+		},
+		{
+			"presentableId": "5ab0b3dc2e443b002095a5bc",
+			"description": "极速主机"
+		},
+		{
+			"presentableId": "5ab0b645b8062d0021b2bb80",
+			"description": "双屏"
+		},
+		{
+			"presentableId": "5ab0b659b8062d0021b2bb82",
+			"description": "无尽的零食"
+		}
+	],
+	"team-intro" : [
+		{"content" :"我们现有一支精悍有力的小团队，在团长的正确领导下，团队拥有舒适的工作氛围，良好的技术前瞻性和敏锐的技术嗅觉。"}
+	],
+	"team-images" :  [
+		{
+			"presentableId": "5ab0b667b8062d0021b2bb84",
+			"image-description": "老板",
+			"description": "老板"
+		},
+		{
+			"presentableId": "5ab0b375b8062d0021b2bb71",
+			"image-description": "打工甲",
+			"description": "打工甲"
+		},
+		{
+			"presentableId": "5ab0b375b8062d0021b2bb71",
+			"image-description": "打工乙",
+			"description": "打工乙"
+		},
+		{
+			"presentableId": "5ab0b375b8062d0021b2bb71",
+			"image-description": "打工丙",
+			"description": "打工丙"
+		},
+		{
+			"presentableId": "5ab0b375b8062d0021b2bb71",
+			"image-description": "打工丁",
+			"description": "打工丁"
+		}
+
+	],
+	"postscript" : ["飞致致力于打造面向虚拟资源创造和流转的互联网基础服务。",
+					"作为一个承载新创业项目的公司，我们会给出显著高于市场价位的薪酬福利，作为员工加入高风险创业项目的补偿。同时我们对开发人员有能力和素质方面的期许，包括但不限于扎实的计算机基础知识，对技术的热爱和执着，对作品和团队的责任心，以及成熟的世界观。",
+					"在项目的早期我们希望打造一支技术全面，有深度的小团队。即使最终项目不成功，我们也希望会是一次让参与者都终身受益的实践。"
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"title": "产品经理",
+
+	"years-of-working": "3-5年",
+	"education": "本科及以上",
+	"salary": "15k-30k",
+	"jd": "",
+	"highlights" : [
+		{
+			"content": "五险一金全"
+		},
+		{
+			"content": "项目有挑战"
+		},
+		{
+			"content": "有期权"
+		},
+		{
+			"content": "团队氛围好"
+		}
+	], 
+	"responsibility": [{
+			"content": "基于对内容行业，智能合约的理解，持续完善并优化产品功能。"
+		},
+		{
+			"content": "基于对公司愿景和技术栈的理解，推动产品功能迭代，设计符合公司路线图的产品规划。"
+		},
+		{
+			"content": "撰写产品的相关介绍，说明和教程。"
+		},
+		{
+			"content": "沟通和协调其他团队成员，推进项目从概念到实现的快速落地。"
+		},
+		{
+			"content": "验证上线产品的使用体验和正确性。"
+		}
+	],
+	"requirement": [{
+			"content": "本科及以上学历，具备三年以上产品经验。"
+		},
+		{
+			"content": "热爱产品，有非常强的好奇心，并且对常见产品有自己的判断和思考。"
+		},
+		{
+			"content": "熟悉市场上主流知识付费产品，了解智能合约。"
+		},
+		{
+			"content": "逻辑思维严密，沟通能力强，注重工作效率和团队协作。"
+		}
+	],
+	"preferred-qualification": [{
+			"content": "对区块链的技术侧有深入了解，对当前区块链产品有自己的认识。"
+		},
+		{
+			"content": "有计算机或相关专业教育经历。"
+		},
+		{
+			"content": "具备产品推广或运营经验。"
+		},
+		{
+			"content": "较强的写作能力。"
+		},
+		{
+			"content": "次母语级别的英语能力。"
+		}
+	],
+	"city": "深圳",
+	"job-location": "深圳 - 南山区 - 金骐智谷大厦17层",
+	"key-words": [{
+		"content": "高级"
+	}, {
+		"content": "web"
+	}, {
+		"content": "知识付费"
+	}, {
+		"content": "产品经理"
+	}],
+	"posted-date": "2018-3-20",
+	"contact-person": "金先生",
+	"contact-email": "hr@freelog.com"
+}

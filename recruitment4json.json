@@ -1,0 +1,100 @@
+{
+	"title": "DevOps工程师",
+	"years-of-working": "3-5年",
+	"education": "本科及以上",
+	"salary": "15k-30k",
+	"jd": "",
+	"highlights" : [
+		{
+			"content": "五险一金全"
+		},
+		{
+			"content": "项目有挑战"
+		},
+		{
+			"content": "有期权"
+		},
+		{
+			"content": "团队氛围好"
+		}
+	], 
+	"responsibility": [{
+			"content": "作为DevOps工程技术教练，推广引入DevOps工程技术方法论与实践。"
+		},
+		{
+			"content": "参与推动公司级DevOps实践落地，提升开发交付速度、效能及质量。"
+		},
+		{
+			"content": "参与公司的服务端API开发。"
+		}
+	],
+	"requirement": [{
+			"content": "本科及以上学历，计算机相关专业。"
+		},
+		{
+			"content": "熟悉linux操作系统,熟悉HTTP协议、TCP/IP网络协议。"
+		},
+		{
+			"content": "熟悉nodeJs开发,熟练使用koa/eggjs,有微服务开发经验。"
+		},
+		{
+			"content": "熟悉nginx docker mysql mongodb redis git。"
+		},
+		{
+			"content": "熟悉devops相关工具。"
+		},
+		{
+			"content": "具备良好的团队合作精神,思维逻辑清晰,快速学习新技术的能力。"
+		},
+		{
+			"content": "熟悉阿里云,AWS者优先，有互联网运维经验者优先。"
+		}
+	],
+	"preferred-qualification": [{
+			"content": "对web框架实现有所研究。"
+		},
+		{
+			"content": "有优秀的编译原理功底或相关经验。"
+		},
+		{
+			"content": "对ES6有专家级的理解。"
+		},
+		{
+			"content": "对前端工具链有完备的了解，包括但不限于加载，打包，测试等等。"
+		}
+	],
+	"postscript": [{
+			"content": "项目本身具有相当的难度，所以会比较看中候选人的基础扎实程度和问题解决能力。如果你喜欢挑战，渴望有重新造轮子的机会，那么这就一个理想的工作。"
+		},
+		{
+			"content": "团队的工作模式为小迭代，密集沟通，大致上执行SCRUM。"
+		}
+	],
+	"city": "深圳",
+	"job-location": "深圳 - 南山区 - 金骐智谷大厦17层",
+	"key-words": [{
+			"content": "高级"
+		},
+		{
+			"content": "中级"
+		},
+		{
+			"content": "前端"
+		},
+		{
+			"content": "web"
+		},
+		{
+			"content": "全栈"
+		},
+		{
+			"content": "js"
+		}
+	],
+	"posted-date": "2018-3-20",
+	"contact-person": "金先生",
+	"contact-nummber": false,
+	"contact-email": "hr@freelog.com"
+
+
+}

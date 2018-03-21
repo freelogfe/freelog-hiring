@@ -1,0 +1,103 @@
+
+	<script>
+	document.addEventListener("recruitment-render-list", function(e) {
+	  var html = '';
+	  JSON.parse(e.detail).forEach(function(obj, index) {
+	  	try {
+	  		html += '<li class="title-'+ index +'">' + JSON.parse(obj).title + '</li>';
+	  	} catch(e) {
+	  		console.error(e)
+	  	}
+	  })
+	  document.querySelector('.recruitment').innerHTML = html;
+
+	  JSON.parse(e.detail).forEach(function(obj, index) {
+		  document.querySelector('.title-'+ index).addEventListener('click', function() {
+		  	document.getElementsByTagName('freelog-company-recruitment-320')[0].selectPosition(index);
+		  })
+	  })
+	});
+
+
+	</script>
+	<div class="side-navi">
+		<h3>关于我们</h3>
+		<ul class="side-navi-list company">
+			<li role="company">&#x4E50;&#x5728;&#x98DE;&#x81F4;</li>
+		</ul>
+		<h3>工作机会</h3>	
+		<ul class="side-navi-list recruitment">
+			<li role="ui">&#x52A0;&#x8F7D;&#x4E2D;...</li>
+		</ul>
+	</div>
+	<div class="content-wrapper" id="company">
+		<freelog-company-intro-320 data-widget-src="a8374d28a148e2d4e0fa43d01413c17cfd92da25" data-widget-config="{}" class="js-wc-widget" ></freelog-company-intro-320>
+	</div>
+	<div class="content-wrapper" id="recruitment">
+		<freelog-company-recruitment-320 data-widget-src="3bc81d1fb80470ab148563469f964c6b1b17f412" data-widget-config="{}" class="js-wc-widget"></freelog-company-recruitment-320>
+	</div>
+
+	<style>
+		body {
+			padding-left: 7%;
+			padding-right: 7%;
+			padding-top: 1%;
+			font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+			color: #555;
+		}
+		.side-navi {
+		    display: inline-block;
+		    width: 15%;
+		    vertical-align: top;
+		    margin-top: 50px;
+
+		}
+		#recruitment{
+			display: none;
+
+		}
+		.side-navi-list {
+			border-bottom: 1px solid #555;
+			list-style: none;
+			/*margin-top: 10px;*/
+			padding-left: 12px;
+		    padding-top: 5px;
+			padding-bottom: 10px;
+			margin-bottom: 10px;
+
+		}
+		.side-navi-list>li {
+			margin-top: 3px;
+			cursor: pointer;
+		}
+		.fontbold {
+			font-weight: bold;
+		}
+		.side-navi-list> li:hover { background-color: #ece9e9; }
+		.opportunities {
+			color: red;
+			font-weight: bold;
+		}
+		.content-wrapper {
+			background: url(//www.lgstatic.com/www/static/job-detail/page/index/img/gradient_e624ed8.png) repeat-y;
+			display: inline-block;
+			width:78%;
+			vertical-align: top;
+			padding: 20px;
+		}
+	</style>
+<script>
+	document.querySelector('.company').addEventListener('click', function() {
+		document.querySelectorAll('.content-wrapper').forEach(function(el, i) {
+			el.style.display = 'none';
+		})
+		document.getElementById('company').style.display = 'inline-block';
+
+	})
+	document.querySelector('.recruitment').addEventListener('click', function() {
+		document.querySelectorAll('.content-wrapper').forEach(function(el, i) {
+			el.style.display = 'none';
+		})
+		document.getElementById('recruitment').style.display = 'inline-block'
+	})
+</script>

@@ -1,0 +1,103 @@
+{
+	"title": "前端工程师",
+	"years-of-working": "3-5年",
+	"education": "本科及以上",
+	"salary": "20k-30k",
+	"jd": "",
+	"highlights" : [
+		{
+			"content": "五险一金全"
+		},
+		{
+			"content": "项目有挑战,"
+		},
+		{
+			"content": "有期权"
+		},
+		{
+			"content": "团队氛围好"
+		}
+	], 
+	"responsibility": [{
+			"content": "根据项目的特殊需要开发前端基础工具包。"
+		},
+		{
+			"content": "根据项目的特殊需要开发前端组件原型。"
+		},
+		{
+			"content": "对照现有的pc端产品，进行相应的移动端移植。"
+		},
+		{
+			"content": "根据产品愿景提出有可行性的技术方案。"
+		},
+		{
+			"content": "撰写产品文档。"
+		}
+	],
+	"requirement": [{
+			"content": "扎实的计算机基础，良好的编程功底。"
+		},
+		{
+			"content": "三年以上的工作经验，包括至少两年的web开发经验。"
+		},
+		{
+			"content": "水准之上的技术英语阅读能力。"
+		},
+		{
+			"content": "优秀的问题解决能力，能够抓住事物变化的关键。"
+		},
+		{
+			"content": "良好的沟通能力，能够进行有效的技术交流。"
+		},
+		{
+			"content": "对软件工程过程及生产力工具的基本了解。"
+		}
+	],
+	"preferred-qualification": [{
+			"content": "对web框架实现有所研究。"
+		},
+		{
+			"content": "有优秀的编译原理功底或相关经验。"
+		},
+		{
+			"content": "对ES6有专家级的理解。"
+		},
+		{
+			"content": "对前端工具链有完备的了解，包括但不限于加载，打包，测试等等。"
+		}
+	],
+	"postscript": [{
+			"content": "项目本身具有相当的难度，所以会比较看中候选人的基础扎实程度和问题解决能力。如果你喜欢挑战，渴望有重新造轮子的机会，那么这就一个理想的工作。"
+		},
+		{
+			"content": "团队的工作模式为小迭代，密集沟通，大致上执行SCRUM。"
+		}
+	],
+	"city": "深圳",
+	"job-location": "深圳 - 南山区 - 金骐智谷大厦17层",
+	"key-words": [{
+			"content": "高级"
+		},
+		{
+			"content": "中级"
+		},
+		{
+			"content": "前端"
+		},
+		{
+			"content": "web"
+		},
+		{
+			"content": "全栈"
+		},
+		{
+			"content": "js"
+		}
+	],
+	"posted-date": "2018-3-20",
+	"contact-person": "金先生",
+	"contact-nummber": false,
+	"contact-email": "hr@freelog.com"
+
+
+}

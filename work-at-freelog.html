@@ -1,0 +1,361 @@
+<template>
+	<div>
+		<section class="introduction">
+		<h2 style="text-align: center;">我们是谁</h2>
+		<!-- <img src="https://scontent-hkg3-2.xx.fbcdn.net/v/t39.2365-6/11057096_806880486062831_920189699_n.png?oh=c03067af83a4e2329693ca4d9c6a8d95&oe=5B06ECE0" alt=""> -->
+			<p>我们是基于智能合约的虚拟资源流转平台。我们有：</p>
+			<p>丰富便捷的UCG资源</p>
+			<p>多元灵活的价格策略</p>
+			<p>稳健安全的以太坊代币支付</p>
+			<br>
+			<p>欢迎使用：</p>
+			市场： 	<a href="http://console.freelog.com">http://console.freelog.com</a><br>
+			主站： 	<a href="http://www.freelog.com">http://www.freelog.com</a><br>
+			教程： 	<a href="http://tutorial.freelog.com">http://tutorial.freelog.com</a>
+
+			<h3 style="text-align: center;margin-top:40px;">工作环境</h3>
+			
+		</section>
+
+
+		<section class="team">
+			<h2 style="text-align: center;">团队介绍</h2>
+			<div class="team-intro"></div>
+
+			<div>
+				<div id="left" style="display: inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"/></svg></div>
+				<div class="carousel-container">
+					<div id="inner"></div>
+				</div>
+				<div id="right" style="display: inline-block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg></div>
+			</div>
+
+		</section>
+
+		<section class="postscript">
+			<h2 style="text-align: center;">附言</h2>
+		</section>
+	      <div class="go-top">
+	          <div class="arrow"></div>
+	          <div class="stick"></div>
+	      </div>
+	</div>
+
+	<style scoped>
+		.introduction {
+		    margin-top: 27px;
+		    margin-bottom: 100px;
+		    padding-bottom: 100px;
+		    border-bottom: 1px solid #555;
+		    padding-left: 15%;
+		    padding-right: 15%;
+		    text-align: center;
+		}
+		.team {
+			margin-top: 80px;
+			margin-bottom: 100px;
+			padding-bottom: 43px;
+			padding-left: 15%;
+			padding-right: 15%;
+			border-bottom: 1px solid #555; 
+			font-size: 12px;
+			text-align: center;
+		}
+		.postscript {
+			padding-bottom: 43px;
+			margin-top: 80px;
+			margin-bottom: : 20px;
+			padding-left: 15%;
+			padding-right: 15%;
+		}
+		#left {
+			transform:scale(1.5);
+			vertical-align: top;
+	  	  	display: inline-block;
+	   		margin-top: 145px;
+	   		cursor: pointer;
+	   		padding-right: 15px;
+	   		transition:all .5s;
+		}
+		#left:hover {
+			box-shadow:3px 3px 3px #ccc;
+		}
+		#right {
+			transform:scale(1.5);
+			vertical-align: top;
+		    display: inline-block;
+		    margin-top: 145px;
+		    cursor: pointer;
+		    padding-left: 15px;
+		}
+		#right:hover {
+			box-shadow:3px 3px 3px #ccc;
+		}
+		.carousel-container {
+			display: inline-block;
+			margin-top: 50px;
+			width:85%;
+			overflow: hidden;
+			text-align:left;
+		}
+		.member {
+			display: inline-block;
+			margin-right:-4px;
+		}
+		.member-head {
+	    	/* 可见视觉区域 */
+		    width: 170px; height: 170px;
+		    position: relative;
+		    overflow: hidden;
+		    cursor: pointer;
+			display: inline-block;
+		}
+		.image-head {
+		    /* 缩放的元素 */
+		    width: 170px; height: 170px;
+		    vertical-align: middle;    
+		    -webkit-transition: -webkit-transform .5s;
+		    transition: transform .5s;
+		}
+		.image-equipment {
+			font-size: 14px;
+			display: inline-block;
+			width: 50px; height: 70px;
+			margin-right: 1.4%;
+		    margin-left: 0.5%;
+			vertical-align: middle;
+			text-align: center;
+		}
+		#inner {
+			width: 2000px;
+			transition-duration: 700ms;
+		}
+		.member-head:hover .image-head {
+		    /* hover放大 */
+		    -webkit-transform: scale(1.05);
+		    -ms-transform: scale(1.05);
+		    transform: scale(1.05);
+		    zoom: 1.05;
+		}
+		.image-text {
+		    display: none
+		}
+		.image-office {
+			display: table-cell;
+        	vertical-align: middle;
+        	text-align: center;
+		}
+		.team-intro-item {
+			text-align: center;font-size: 15px;
+		}
+		.member-head:hover > .image-text {
+		    display: block;
+		    z-index: 100;
+		    position: absolute;
+		    color: lightblue;
+		    font-size: 8px;
+		    font-weight: bold;
+		    left: 10px;
+		    top: 120px;
+		}
+		.margin0 {
+			margin-top: 30px;
+		}
+		.width200 {
+			width: 200px;
+		}
+        div.go-top {
+            display: none;
+            opacity: 0.6;
+            z-index: 999999;
+            position: fixed;
+            bottom: 113px;
+            left: 90%;
+            margin-left: 40px;
+            border: 1px solid #a38a54;
+            width: 38px;
+            height: 38px;
+            background-color: #eddec2;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        div.go-top:hover {
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+
+        div.go-top div.arrow {
+            position: absolute;
+            left: 10px;
+            top: -1px;
+            width: 0;
+            height: 0;
+            border: 9px solid transparent;
+            border-bottom-color: #cc3333;
+        }
+
+        div.go-top div.stick {
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            width: 8px;
+            height: 14px;
+            display: block;
+            background-color: #cc3333;
+            -webkit-border-radius: 1px;
+            -moz-border-radius: 1px;
+            border-radius: 1px;
+        }
+	</style>
+</template>
+<script>
+function mustache(l,a,m,c){function h(a,b){b=b.pop?b:b.split(".");a=a[b.shift()]||"";return 0 in b?h(a,b):a}var k=mustache,e="";a=Array.isArray(a)?a:a?[a]:[];a=c?0 in a?[]:[1]:a;for(c=0;c<a.length;c++){var d="",f=0,n,b="object"==typeof a[c]?a[c]:{},b=Object.assign({},m,b);b[""]={"":a[c]};l.replace(/([\s\S]*?)({{((\/)|(\^)|#)(.*?)}}|$)/g,function(a,c,l,m,p,q,g){f?d+=f&&!p||1<f?a:c:(e+=c.replace(/{{{(.*?)}}}|{{(!?)(&?)(>?)(.*?)}}/g,function(a,c,e,f,g,d){return c?h(b,c):f?h(b,d):g?k(h(b,d),b):e?"":(new Option(h(b,d))).innerHTML}),n=q);p?--f||(g=h(b,g),e=/^f/.test(typeof g)?e+g.call(b,d,function(a){return k(a,b)}):e+k(d,g,b,n),d=""):++f})}return e}
+</script>
+<script>
+
+
+  (function() {
+    var template = document.currentScript.parentNode.querySelector('template');
+    class FreelogCompanyIntroduction extends HTMLElement {
+      constructor() {
+        super()
+        let shadowRoot = this.attachShadow({
+          mode: 'closed'
+        });
+        this.distance = 0;
+        const instance = template.content.cloneNode(true);
+        this.root = shadowRoot;
+        shadowRoot.appendChild(instance);
+        this.render();
+        this.bindScroll();
+        
+      }
+      render() {
+
+      	var self = this;
+      	var html = '';
+        var App = window.FreeLogApp
+        return window.QI.fetch(`/v1/presentables?nodeId=${window.__auth_info__.__auth_node_id__}&resourceType=configuration`).then(function (res) {
+            return res.json()
+        }).then(function (data) {
+        	return window.QI.fetch(`/v1/presentables/resource/`+data.data[0].presentableId + `.data?nodeId=${window.__auth_info__.__auth_node_id__}`).then(function(res) {
+              if( res.headers.get('freelog-contract-id')) {
+                return res.json()
+              }else {
+                return res.json()
+              }
+            }).then(function(data) {
+            	self.renderFeatures.call(self,data);
+            	self.renderIntro.call(self, data);
+            	self.renderMembers.call(self,data);
+            	self.renderPostscript.call(self, data);
+            	self.bindEvents.call(self, data);
+            })
+        })
+
+      }
+      renderFeatures(data) {
+      		var html = '';
+      		html += '<p style="text-align: center;margin-bottom: 20px;">工作地址：'+data.location+'</p>'
+        	data['features-images'].forEach(function(el ,index){
+        		html +=  mustache(`
+					<div class="image-equipment">
+						<img style="width:50px;height: 50px;" src="https://api.freelog.com/v1/presentables/resource/${el.presentableId}.data?nodeId=${window.__auth_info__.__auth_node_id__}" alt="">
+						<p>{{description}}</p>
+					</div>
+      			`,el)
+        	})
+        	this.root.querySelector('.introduction').innerHTML += html;
+      }
+      renderIntro(data) {
+      		var html = '';
+      		html += mustache(`
+      			{{#team-intro}}
+					<p class="team-intro-item">{{content}}</p>
+      			{{/team-intro}}
+      			`,data)
+      		this.root.querySelector('.team-intro').innerHTML += html;
+      }
+      renderMembers(data) {
+      		var html = '';
+        	data['team-images'].forEach(function(el ,index){
+        		html +=  mustache(`
+					<div class="member width200">
+						<div class="member-head">
+							<img src="https://api.freelog.com/v1/presentables/resource/${el.presentableId}.data?nodeId=${window.__auth_info__.__auth_node_id__}" alt="" class="image-head">
+							<div class="image-text">
+								<p class="margin0">{{description}}</p>
+							</div>
+						</div>
+					</div>
+      			`,el)
+        	})
+        	this.root.querySelector('#inner').innerHTML = html;
+      }
+      renderPostscript(data) {
+      	var html = '';
+        	data['postscript'].forEach(function(el ,index){
+        		html +=  '<p>'+ el +'</p>'
+        	})
+
+      	this.root.querySelector('.postscript').innerHTML += html;
+      }
+      bindEvents() {
+      	var self = this;
+      	this.root.querySelector('#left').addEventListener('click', function() {
+      		if(self.distance >= 0) {
+      			return
+      		}
+      		self.distance += 200;
+      		self.root.querySelector('#inner').style.webkitTransform = 'translate('+ String(self.distance) +'px)';
+      		self.root.querySelector('#inner').style.MozTransform = 'translate('+ String(self.distance) +'px)';
+      		self.root.querySelector('#inner').style.msTransform = 'translate('+ String(self.distance) +'px)';
+      		self.root.querySelector('#inner').style.OTransform = 'translate('+ String(self.distance) +'px)';
+      		self.root.querySelector('#inner').style.transform = 'translate('+ String(self.distance) +'px)';
+      	})
+      	this.root.querySelector('#right').addEventListener('click', function() {
+      		if (self.distance<= -400) {
+      			return 
+      		}
+      		self.distance -= 200;
+      		self.root.querySelector('#inner').style.webkitTransform = 'translate('+ String(self.distance) +'px)';
+      		self.root.querySelector('#inner').style.MozTransform = 'translate('+ String(self.distance) +'px)';
+      		self.root.querySelector('#inner').style.msTransform = 'translate('+ String(self.distance) +'px)';
+      		self.root.querySelector('#inner').style.OTransform = 'translate('+ String(self.distance) +'px)';
+      		self.root.querySelector('#inner').style.transform = 'translate('+ String(self.distance) +'px)';
+      	})
+      }
+      bindScroll() {
+        function runScroll() {
+          scrollTo(document.documentElement, 0, 500);
+        }
+        function scrollTo(element, to, duration) {
+          if (duration <= 0) return;
+          var difference = to - element.scrollTop;
+          var perTick = difference / duration * 10;
+          setTimeout(function() {
+            element.scrollTop = element.scrollTop + perTick;
+            if (element.scrollTop == to) {
+              return
+            };
+            scrollTo(element, to, duration - 10);
+          }, 10);
+        }
+        window.addEventListener('scroll', () => {
+          if(window.scrollY > 200) {
+            this.root.querySelector('div.go-top').style.display = 'block'
+          }else {
+            this.root.querySelector('div.go-top').style.display = 'none'
+          }
+        })
+        var scrollme;
+        scrollme = this.root.querySelector('div.go-top');
+        scrollme.addEventListener("click",runScroll,false);
+      }
+    }
+
+    customElements.define('freelog-company-intro-320', FreelogCompanyIntroduction);
+  })();
+</script>
+
